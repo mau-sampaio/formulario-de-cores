@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.formulario {
+  width: 100%;
+  padding: 40px;
+  background-color: #202020;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+
+.formulario.erro {
+  border-color: #FF7070;
+  background: #221515;
+}
+
+.formulario form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.campo {
+  flex: 1;
+
+}
+
+.campo label {
+  display: block;
+}
+
+.campo input {
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  border-radius: 12px;
+  background: #353535;
+  border: 1px solid transparent;
+}
+
+.campo.erro input {
+  border-color: #FF7070;
+  background: #473434;
+}
+
+.botao {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aviso {
+  color: #FF7070;
+}
